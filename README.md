@@ -1,2 +1,2 @@
-# generic_neoid
-A simple sample to connect providers on companion
+# companion-module-generic-websocket
+See HELP.md and LICENSE

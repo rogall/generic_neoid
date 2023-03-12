@@ -1,23 +1,30 @@
 {
-	"name": "generic-tshow",
-	"version": "2.0.2",
-	"main": "osc.js",
-	"manufacturer": "NEOiD",
-	"product": "generic-tshow",
+	"name": "generic-websocket-neoid",
+	"version": "1.0.3",
+	"api_version": "1.0.0",
+	"keywords": [
+		"Protocol",
+		"Generic"
+	],
+	"manufacturer": "NEOid",
+	"product": "WebSocketNEOid",
+	"shortname": "WebSocketNEOid",
+	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"format": "prettier -w ."
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
+	"author": "Krzysztof Pyrkosz",
 	"license": "MIT",
+	"dependencies": {
+		"object-path": "^0.11.4",
+		"ws": "^7.2.1"
+	},
+	"homepage": "https://github.com/rogall/generic_neoid#readme",
+	"bugs": {
+		"url": "https://github.com/rogall/generic_neoid/issues"
+	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/rogall/generic_neoid.git"
-	},
-	"dependencies": {
-		"@companion-module/base": "~1.0.2"
-	},
-	"devDependencies": {
-		"@companion-module/tools": "^0.5.1"
-	},
-	"prettier": "@companion-module/tools/.prettierrc.json"
+	}
 }
