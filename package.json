@@ -6,7 +6,7 @@
 		"Protocol",
 		"Generic"
 	],
-	"manufacturer": "NEOid",
+	"manufacturer": "NEOiD",
 	"product": "WebSocketNEOid",
 	"shortname": "WebSocketNEOid",
 	"main": "index.js",
