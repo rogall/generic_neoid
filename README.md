@@ -1,2 +1,2 @@
 # generic_neoid
-A simple companion connector
+A simple sample to connect providers on companion
